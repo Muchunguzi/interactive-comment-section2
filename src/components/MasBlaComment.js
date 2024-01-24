@@ -10,6 +10,10 @@ import { MobilePart } from "./MobilePart";
 
 const MasBlaComment = () => {
 
+    const style = {
+      marginTop : '-4%',
+    }
+
     const [replys , setReply] = useState([]);
     
     const openReply = () => {
@@ -49,7 +53,7 @@ const MasBlaComment = () => {
             insight on where I can learn React? Thanks!</p>
 
 
-            <MobilePart openReply={openReply} />  
+            <MobilePart style={style} openReply={openReply} />  
   
         </div>
         

@@ -7,6 +7,11 @@ import { MobilePartCRUD } from './MobilePartCRUD';
 
 const JulioRamReply = () => {
 
+const style = {
+
+    marginTop : '10%',
+}
+
 const [timeAgo, setTimeAgo] = useState('');
 
     return (
@@ -31,7 +36,7 @@ const [timeAgo, setTimeAgo] = useState('');
                 framework.But the fundamentals are what stay constant.
             </p>
 
-            <MobilePartCRUD />
+            <MobilePartCRUD style={style} />
 
         </div>
         
