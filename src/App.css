@@ -144,13 +144,15 @@ div.mobiles{
   border-radius: 10px;
   height: 120px;
   display: flex;
-  flex-direction: row;
+  
   padding: 10px;
   justify-content: space-between;
   margin: 10px auto 10px auto;
   width: 56.5%;
   margin-left: 23%;
   margin-right: -40%;
+ 
+ 
 }
 
 .mobiles , .mobiles_CRUD {
@@ -182,6 +184,11 @@ div.mobiles{
   .reply{
     margin:auto;
     margin-bottom: 5%;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    max-height: 100px;
+    overflow: auto;
   }
 
   .voteBoard{
@@ -204,8 +211,9 @@ div.mobiles{
     display: initial;
   }
   div.mobiles{
-    margin-top: 1%;
+    margin-top: -1%;
     display: flex;
+    
   }
 
   button.reply.reply_area_mobile{
@@ -218,10 +226,13 @@ div.mobiles{
     flex-direction: row;
     height: 5%;
     justify-content: space-between;
+    
+    margin-top: -10%;
   }
 
   textarea{
     height: 13.5vh;
+    
   }
 
   
