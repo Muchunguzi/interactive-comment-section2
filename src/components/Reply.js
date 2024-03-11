@@ -51,7 +51,7 @@ const Reply = ({reply}) => {
            
             <p><span style={{fontWeight:'bold'}}>{reply.initial}</span>{reply.text}</p>
             
-            <MobilePartCRUD style={mobileStyles} />
+            <MobilePartCRUD className="crudStyles" style={mobileStyles} />
 
         </div>
         
