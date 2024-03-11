@@ -8,7 +8,7 @@ const Reply = ({reply}) => {
 
   const mobileStyles = {
          
-    marginTop : '35.5%',
+    marginTop : '5%',
 
   };
  

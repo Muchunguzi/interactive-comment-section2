@@ -27,7 +27,6 @@ const ReplyForm2 = ({addReply}) => {
     return (
         <div className="replyForm" id="replyForm2">
        <form onSubmit={handleReply} className='form'>
-       <img className='' src='' alt='' />
        <textarea maxLength={150} value={text} onChange = {e => setText(e.target.value)} placeholder = "Add a reply...." />
        <button type="submit">REPLY</button>
 

@@ -10,7 +10,7 @@ const Comment = ({comment}) => {
     
     const mobileStyles = {
 
-        marginTop : '35.5%'
+        marginTop : '5%'
     }
 
     useEffect(() => {
